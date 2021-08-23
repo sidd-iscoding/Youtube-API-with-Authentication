@@ -1,0 +1,18 @@
+The GAPI library offers a simple, flexible way to call Google APIs from your browser. GAPI is Google’s client 
+library for browser-side JavaScript. It’s used in Google Sign-in, Google Drive, and thousands of internal and 
+external web pages for easily connecting with Google APIs.
+
+To make a request in GAPI, we need to do following:
+    Loading the gapi client
+    Initializing the client with our Google API Discovery Document
+    Make an API request
+    Handle the API response results
+
+An API Discovery document describes the surface for a particular version of an API. The information includes API 
+name, API version, API description, resource schemas, method definitions, authentication requirements, and more. 
+The JavaScript client library uses the information to generate corresponding JavaScript methods that applications
+can use. If an API explicitly documents its discovery URL, always use it as-is to load the JavaScript client
+ library.
+After loading an API Discovery Document, the JavaScript client library automatically generates JavaScript methods
+for interacting with the API. For each method defined in the API Discovery Document, a corresponding method is 
+constructed on the gapi.client object.   (refer: https://github.com/google/google-api-javascript-client/blob/master/docs/discovery.md)
