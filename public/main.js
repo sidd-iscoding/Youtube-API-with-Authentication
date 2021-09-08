@@ -1,5 +1,6 @@
 
-const CLIENT_ID = '540879201253-idsc526tsm9q5qutb5hu9u5oar2qhv76.apps.googleusercontent.com';
+const CLIENT_ID = '540879201253-eogckk8o91rhle3t5qc8bqf4h1u5udet.apps.googleusercontent.com';
+
 const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest"];
 const SCOPES = 'https://www.googleapis.com/auth/youtube.readonly';''
 
