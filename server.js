@@ -1,9 +1,7 @@
-const express= require('express');  // import express module 
 const dotenv = require('dotenv');
 
 //Load env vars
 dotenv.config('config.env');
-const app=express();
 
 app.use(express.static('public'));
 
