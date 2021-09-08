@@ -15,3 +15,5 @@ the YouTube Data API
 refer https://developers.google.com/identity/sign-in/web/reference for all gapi platform library object
 Enable Google Web Analytics otherwise error will be shown
 provide devoloper email address in test field in OAuthConsent Screen
+
+The Deployed Link is : https://youtubestats-sid.herokuapp.com/
